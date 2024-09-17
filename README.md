@@ -2,13 +2,13 @@
 
 ## Funcionalidades
 
-1. Área de Login/Logout (30% da nota)
+1. Área de Login/Logout
 - **Login e Logout:** O sistema possui uma área de login que utiliza sessões (sessions) para gerenciar o acesso. Existem dois tipos de login:
   - **Coordenação:** Login: coordenacao, Senha: coordenacao
   - **Técnicos:** Login: tecnicos, Senha: tecnicos
 - **Encerrar Sessão:** Permite que os usuários encerrem a sessão ativa.
 
-2. Registro de Solicitações (30% da nota)
+2. Registro de Solicitações
 - **Cadastro de Solicitações:** Coordenadores podem registrar solicitações com os seguintes campos:
   - **Registro da Solicitação:** Descrição do que precisa ser feito.
   - **Laboratório:** Laboratório onde a solicitação deve ser realizada.
@@ -24,12 +24,12 @@ Laboratório | Data Limite | Descrição da Demanda
   - Solicitações para GE são salvas em ge.txt.
   - Solicitações para DSM são salvas em dsm.txt.
 
-3. Visualização de Solicitações por Curso (30% da nota)
+3. Visualização de Solicitações por Curso
 - **Visualizar Solicitações GE:** Botão que carrega uma página PHP para acessar e exibir todas as solicitações do arquivo ge.txt.
 - **Visualizar Solicitações DSM:** Botão que carrega uma página PHP para acessar e exibir todas as solicitações do arquivo dsm.txt.
 - **Validação de Sessão:** A visualização só é permitida em sessões ativas como coordenador ou técnico. Sessões desativadas redirecionam para a área de login.
 
-4. Visualização de Todas as Solicitações (10% da nota)
+4. Visualização de Todas as Solicitações
 - **Visualizar Todas as Solicitações:** Botão que carrega uma página PHP para acessar e exibir todas as solicitações dos arquivos ge.txt e dsm.txt.
 
 ## Tecnologias Utilizadas
